@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/v_r44p0/csf/mali_kbase_csf_errors_dumpfault.h := sh ../scripts/headers_install.sh ../include/uapi/gpu/arm/v_r44p0/csf/mali_kbase_csf_errors_dumpfault.h usr/include/gpu/arm/v_r44p0/csf/mali_kbase_csf_errors_dumpfault.h

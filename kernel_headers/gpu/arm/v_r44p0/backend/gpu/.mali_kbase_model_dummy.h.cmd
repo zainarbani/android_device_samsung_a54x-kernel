@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/v_r44p0/backend/gpu/mali_kbase_model_dummy.h := sh ../scripts/headers_install.sh ../include/uapi/gpu/arm/v_r44p0/backend/gpu/mali_kbase_model_dummy.h usr/include/gpu/arm/v_r44p0/backend/gpu/mali_kbase_model_dummy.h
