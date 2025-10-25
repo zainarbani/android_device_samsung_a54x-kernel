@@ -5,7 +5,6 @@ softdep is_device_otprom pre: fimc-is
 softdep sec_hard_reset_hook pre: pinctrl-samsung-core
 softdep mali_kbase pre: memory_group_manager
 softdep mali_kbase pre: exynos-acme
-softdep softdog pre: s3c2410_wdt
 softdep fimc_is pre: cmupmucal clk_exynos exynos-pmu-if pinctrl-samsung-core pcie-exynos-rc phy-exynos-mipi samsung-iommu samsung-iommu-group
 softdep is_cis_gd2 pre: fimc-is
 softdep mcd_panel pre: s2dos05-regulator i2c-exynos5
@@ -21,7 +20,6 @@ softdep exynos_ufcc pre: exynos-acme
 softdep mcd_panel_samsung_drv pre: mcd-panel
 softdep is_cis_imx766 pre: fimc-is
 softdep exynos_cm pre: exynos-seh
-softdep sec_pm_debug pre: acpm-mfd-bus
 softdep synaptics_ts pre: acpm-mfd-bus
 softdep is_actuator_ak737x pre: fimc-is
 softdep exynos_pd pre: clk_exynos
